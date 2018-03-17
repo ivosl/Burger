@@ -11,10 +11,10 @@
 ## Any changes are being instantly updated in MySQL database.
 
 
-## The application is hosted on Heroku (see the link below):
+## The application is hosted on Heroku (see the link below): ##
 
-###  https://agile-bastion-55450.herokuapp.com - automatic!
-### [Heroku] (https://agile-bastion-55450.herokuapp.com)
+###  https://agile-bastion-55450.herokuapp.com
 
-### **The app is built using Node.js, Express.js, MySQL, Handlebars, ORM, Javascript, JQuery, HTML, Bootstrap, and CSS ** ###
+
+### *The app is built using Node.js, Express.js, MySQL, Handlebars, ORM, Javascript, JQuery, HTML, Bootstrap, and CSS  ###
 

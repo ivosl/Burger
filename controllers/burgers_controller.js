@@ -5,7 +5,7 @@ var router = express.Router();
 // Import the model (burger.js) to use its database functions.
 var burger = require("../models/burger.js");
 
-router.get("/index", function(req, res) {
+router.get("/", function(req, res) {
     burger.all(function(data) {
       var hbsObject = {
         burgers: data

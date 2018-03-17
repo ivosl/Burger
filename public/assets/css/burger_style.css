@@ -1,4 +1,4 @@
-/* li {
+li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
@@ -15,6 +15,33 @@
   }
   
   .form-group {
+    align-content: center;
     margin-bottom: 5px;
   }
-   */
+  .card {
+      margin-top: 40px;
+      padding: 5px;
+      background-color: #fafaae;
+  }
+  body {
+      background-color: rgb(216, 226, 180);
+  }
+  button.delete-burger {
+      background-color: #e25e5e;
+      color: white;
+  }
+  button.change-devour {
+    background-color: #5eb8e2;
+    color: white;
+}
+.jumbotron {
+    background-image: url(../img/jumbotronbackground.gif);
+}
+.jumbotron h1{
+   background-color:white;
+   padding: 5px;
+   margin: 0;
+}
+button {
+    background-color: rgb(169, 243, 169);
+}

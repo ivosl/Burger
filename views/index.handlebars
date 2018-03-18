@@ -10,6 +10,7 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Burgers To Eat:</h2>
+            {{!-- looping through the burgers to be eaten --}}
                 {{#each burgers}} 
                 {{#unless devoured}}
                 {{> burgers/devour devoured=true}} 
@@ -19,9 +20,11 @@
 
         <div class="col-md-6">
             <h2>Devoured Burgers:</h2>
+            {{!-- looping through the burgers --}}
                 {{#each burgers}} 
                 {{#if devoured}} 
                 {{> burgers/devour devoured=false}}
+                {{!-- adding delete button to each burgere that is devoured --}}
                 <button class="delete-burger" data-id="{{this.id}}">FLUSH IT!</button>
                 {{/if}} 
                 {{/each}}
